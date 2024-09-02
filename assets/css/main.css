@@ -2527,28 +2527,7 @@ input, select, textarea {
 			margin: 0;
 		}
 
-/* Header */
 
-	#header {
-		text-align: center;
-		padding: 3em 0 0 0;
-		background-color: #fff;
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
-	}
-
-		#header h1 {
-			padding: 0 0 2.75em 0;
-			margin: 0;
-		}
-
-			#header h1 a {
-				font-size: 1.5em;
-				letter-spacing: -0.025em;
-				border: 0;
-			}
 
 	#nav {
 		cursor: default;
@@ -2674,8 +2653,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/indy-skyline3.png");
+		background-color: #cfecf7;
 		background-position: center center;
+		opacity: 65%;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
@@ -2687,9 +2668,9 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
-			color: #fff;
+			background: #efefef;
+			background: rgba(239, 239, 239, 0.90);
+			color: black;
 			padding: 1.5em 0;
 		}
 
